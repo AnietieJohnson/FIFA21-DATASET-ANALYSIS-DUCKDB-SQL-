@@ -17,7 +17,8 @@ I utilized two datasets, [Fifa_21_RD1](https://github.com/AnietieJohnson/FIFA21-
 ### CHALLENGE (DAY-2&3): DATABASE CREATION
 1. I Created a DUCKDB database named **_CHALLENGE_**
 2. Loaded **Fifa_21_RD1 and Fifa_21_RD2** dataset
-3. I created an access link to allow individuals in the Motherduck community view my database
+3. I created an access link to allow individuals in the Motherduck community view my database.
+
 **_Syntax for DAY-2&3 can be found_** [here](https://github.com/AnietieJohnson/FIFA21-DATASET-ANALYSIS-DUCKDB-SQL-/blob/main/CHALLENGE%20(DAY-2%263)-DATABASE%20CREATION.sql)
 
 ![](https://github.com/AnietieJohnson/FIFA21-DATASET-ANALYSIS-DUCKDB-SQL-/blob/main/Duckdb%20%20database.png)
@@ -31,7 +32,9 @@ The 'Height' and 'Weight' columns were my first challenge. I meticulously ensure
 The 'Value' column presented a unique challenge with values like '€100M' (100 million), '€10K' (10,000), and even '€10.5M.' Skillfully, I stripped away the symbols ('€'), units ('M' and 'K'), and even decimal points using a combination of CASE statements, REPLACE functions, and SUBSTRING operations. This meticulous process unveiled the true numerical values, and I converted them to integers. Similarly, 'Wage' and 'Release Clause' are now radiant with accurate values, as I removed 'K' for thousands and 'M' for millions. The data is now crystal clear for financial analysis.
 
 - Handling 'Star' Characters: 
-I removed those pesky 'Star' characters from the columns where they appeared, ensuring the data is now pristine in a clean, numerical format. Insights are now poised for discovery. **_The syntax for DAY-4&5_** [FIFA_21_RD1](https://github.com/AnietieJohnson/FIFA21-DATASET-ANALYSIS-DUCKDB-SQL-/blob/main/CHALLENGE%20(DAY-4%265)-DATA%20%20CLEANING%20For%20FIFA_21_RD1.sql) and [FIFA_21_RD2](https://github.com/AnietieJohnson/FIFA21-DATASET-ANALYSIS-DUCKDB-SQL-/blob/main/CHALLENGE%20(DAY-4%265)-DATA%20CLEANING%20for%20fifa_21_RD2.sql)
+I removed those pesky 'Star' characters from the columns where they appeared, ensuring the data is now pristine in a clean, numerical format. Insights are now poised for discovery.
+
+ **_The syntax for DAY-4&5_** [FIFA_21_RD1](https://github.com/AnietieJohnson/FIFA21-DATASET-ANALYSIS-DUCKDB-SQL-/blob/main/CHALLENGE%20(DAY-4%265)-DATA%20%20CLEANING%20For%20FIFA_21_RD1.sql) and [FIFA_21_RD2](https://github.com/AnietieJohnson/FIFA21-DATASET-ANALYSIS-DUCKDB-SQL-/blob/main/CHALLENGE%20(DAY-4%265)-DATA%20CLEANING%20for%20fifa_21_RD2.sql)
 
 To confirm that all my data type has been updated to integer I used the syntax below
 ```
