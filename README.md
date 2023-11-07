@@ -48,6 +48,7 @@ WHERE TABLE_NAME ='Fifa_21_RD1';
 ### CHALLENGE (DAY-6&7): ANALYSIS
 
 **USING  Fifa_21_RD1 AS DATASET FOR ANALYSIS**
+
 Question 1: I Identified players with high value but receiving relatively low wages by using the average of both as the threshold. Leveraged the power of AVG() function and WHERE clause.
 
 Question 2: I Determined the count of players available in the dataset for each position, showcasing the importance of the COUNT() function.
