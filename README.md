@@ -36,7 +36,7 @@ I removed those pesky 'Star' characters from the columns where they appeared, en
 
  **_The syntax for DAY-4&5_** -: [Cleaning_process_FIFA_21_RD1](https://github.com/AnietieJohnson/FIFA21-DATASET-ANALYSIS-DUCKDB-SQL-/blob/main/CHALLENGE%20(DAY-4%265)-DATA%20%20CLEANING%20For%20FIFA_21_RD1.sql) and [Cleaning_process_FIFA_21_RD2](https://github.com/AnietieJohnson/FIFA21-DATASET-ANALYSIS-DUCKDB-SQL-/blob/main/CHALLENGE%20(DAY-4%265)-DATA%20CLEANING%20for%20fifa_21_RD2.sql)
 
-To confirm that all data type has been updated to integer I used the syntax below
+To confirm that all datatypes have been updated to integer, I used the syntax below
 ```
 SELECT COLUMN_NAME, DATA_TYPE
 FROM INFORMATION_SCHEMA.COLUMNS
