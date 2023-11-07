@@ -34,7 +34,7 @@ The 'Value' column presented a unique challenge with values like '€100M' (100 
 - Handling 'Star' Characters: 
 I removed those pesky 'Star' characters from the columns where they appeared, ensuring the data is now pristine in a clean, numerical format. Insights are now poised for discovery.
 
- **_The syntax for DAY-4&5_** [FIFA_21_RD1](https://github.com/AnietieJohnson/FIFA21-DATASET-ANALYSIS-DUCKDB-SQL-/blob/main/CHALLENGE%20(DAY-4%265)-DATA%20%20CLEANING%20For%20FIFA_21_RD1.sql) and [FIFA_21_RD2](https://github.com/AnietieJohnson/FIFA21-DATASET-ANALYSIS-DUCKDB-SQL-/blob/main/CHALLENGE%20(DAY-4%265)-DATA%20CLEANING%20for%20fifa_21_RD2.sql)
+ **_The syntax for DAY-4&5_** -: [Cleaning_process_FIFA_21_RD1](https://github.com/AnietieJohnson/FIFA21-DATASET-ANALYSIS-DUCKDB-SQL-/blob/main/CHALLENGE%20(DAY-4%265)-DATA%20%20CLEANING%20For%20FIFA_21_RD1.sql) and [Cleaning_process_FIFA_21_RD2](https://github.com/AnietieJohnson/FIFA21-DATASET-ANALYSIS-DUCKDB-SQL-/blob/main/CHALLENGE%20(DAY-4%265)-DATA%20CLEANING%20for%20fifa_21_RD2.sql)
 
 To confirm that all my data type has been updated to integer I used the syntax below
 ```
