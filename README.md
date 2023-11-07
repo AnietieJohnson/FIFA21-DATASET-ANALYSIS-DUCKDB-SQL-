@@ -29,3 +29,22 @@ SELECT * FROM read_csv_auto('C:\Users\hp\Downloads\fifa21_raw_data2.csv');
 CREATE TABLE Fifa_21_RD2 AS SELECT * FROM read_csv_auto('C:\Users\hp\Downloads\fifa21_raw_data2.csv');
 ```
 ![](https://github.com/AnietieJohnson/FIFA21-DATASET-ANALYSIS-DUCKDB-SQL-/blob/main/Duckdb%20%20database.png)
+
+## CHALLENGE (DAY-4&5): DATA INSPECTION AND CLEANING : 
+#### Data Cleaning for Fifa_21_RD1
+Working with Two Connected Fifa Datasets:
+- Converting Height and Weight Columns from VARCHAR to INTEGER:
+The 'Height' and 'Weight' columns were my first challenge. I meticulously ensured that they are now presented in a numerical format, making them ready for efficient analysis. For 'Height,' I converted all values to centimeters, harmonizing units that were initially mixed between 'ft' and 'cm.' Using SUBSTRING and multiplying by the conversion factor, I made all values uniform. I then changed the data type from VARCHAR to INTEGER using CAST. The same methodology was applied to clean the 'Weight' column, ensuring all values are consistently in 'lbs' format. I removed 'lbs' using SUBSTRING, then i was able to change the data type from VARCHAR to INTEGER usong ALTER statement, thereby enabling further calculations. This task reiterated the importance of thorough data evaluation before embarking on the cleaning journey.
+
+- Converting 'Value,' 'Wage,' and 'Release Clause' from VARCHAR to INTEGER: 
+The 'Value' column presented a unique challenge with values like '€100M' (100 million), '€10K' (10,000), and even '€10.5M.' Skillfully, I stripped away the symbols ('€'), units ('M' and 'K'), and even decimal points using a combination of CASE statements, REPLACE functions, and SUBSTRING operations. This meticulous process unveiled the true numerical values, and I converted them to integers. Similarly, 'Wage' and 'Release Clause' are now radiant with accurate values, as I removed 'K' for thousands and 'M' for millions. The data is now crystal clear for financial analysis.
+
+- Handling 'Star' Characters: 
+I removed those pesky 'Star' characters from the columns where they appeared, ensuring the data is now pristine in a clean, numerical format. Insights are now poised for discovery.
+To confirm that all my data type has been updated to integer I used the syntax below
+```
+SELECT COLUMN_NAME, DATA_TYPE
+FROM INFORMATION_SCHEMA.COLUMNS
+WHERE TABLE_NAME ='Fifa_21_RD1';
+```
+![](https://github.com/AnietieJohnson/FIFA21-DATASET-ANALYSIS-DUCKDB-SQL-/blob/main/datatype%20change.png)
