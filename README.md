@@ -52,7 +52,39 @@ Question 1: I Identified players with high value but receiving relatively low wa
 
 Question 2: I Determined the count of players available in the dataset for each position, showcasing the importance of the COUNT() function.
 
-Question 3: 🏆 Discovered the club with the largest representation of players in the dataset, utilizing the COUNT() function and GROUP clause to identify the club with the most extensive player diversity. 🌐
+Question 3: Discovered the club with the largest representation of players in the dataset, utilizing the COUNT() function and GROUP clause to identify the club with the most extensive player diversity. 
 
-Question 4: ⭐ Listed the top 10 players with the highest Overall (OVA) and Potential (POT) ratings, spotlighting the star players using the MAX() function. These are the football galaxy's brightest. 🌟
-I was happy to see L.MESSI topping the list, A very relatable data and insight. 😉 
+Question 4: Listed the top 10 players with the highest Overall (OVA) and Potential (POT) ratings, spotlighting the star players using the MAX() function. These are the football galaxy's brightest. 
+
+ **_The syntax for DAY-6&7 can be found_** [here](https://github.com/AnietieJohnson/FIFA21-DATASET-ANALYSIS-DUCKDB-SQL-/blob/main/CHALLENGE%20(DAY-6%267)-ANALYSIS.sql)
+
+
+### CHALLENGE (DAY-8&9): ANALYSIS CONTINUED
+1. Finding Players with the Highest OVA POT within Each Club :
+I used DENSE_RANK() to identify top players in each club based on Overall (OVA) and Potential (POT) ratings. A great insight for clubs in player selection.
+
+2. Calculating the Average OVA for Players Under 25 and Over 30 :
+I used case statements to calculate average OVA ratings for players in different age groups, providing valuable insights into player performance.
+
+3. Listing Players with the Same Age within Each Club: 
+By aggregating players with the same age within each club, I uncovered unique patterns in player composition.
+
+4. Finding the Player with the Highest POT for Each Nationality :
+By ranking players by Potential (POT) within their nationality, we can spot the rising stars from different countries.
+
+5. Ranking Players by OVA in Descending Order Within Clubs:
+A detailed analysis of player rankings within their respective clubs can assist in talent scouting and club management.
+
+ **_The syntax for DAY-8&9 can be found_** [here](https://github.com/AnietieJohnson/FIFA21-DATASET-ANALYSIS-DUCKDB-SQL-/blob/main/CHALLENGE%20(DAY-6%267)-ANALYSIS.sql)
+
+ ## CONCLUSION
+Data analysis has become increasingly important in the field of football for a variety of reasons. It is used at various levels of the game, from individual player performance analysis to team strategy development and fan engagement. The **#30daysduckdbchallenge** has been an incredible journey of data analysis. We've not only polished our SQL skills but also demonstrated the power of DuckDB in handling real-world data challenges. The Challenge continues and I cannot wait to explore the next phase.
+
+## REFERENCE
+Image Title: Leveraging Data GTPE
+
+Source: Google Images. 
+
+URL: https://images.app.goo.gl/CSfyLSQEMHUa3jcs9
+
+Accessed Date: November 2, 2023
