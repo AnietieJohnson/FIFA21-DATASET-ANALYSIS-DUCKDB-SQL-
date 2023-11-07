@@ -19,7 +19,7 @@ I utilized two datasets, [Fifa_21_RD1](https://github.com/AnietieJohnson/FIFA21-
 2. Loaded **Fifa_21_RD1 and Fifa_21_RD2** dataset
 3. I created an access link to allow individuals in the Motherduck community view my database.
 
-**_Syntax for DAY-2&3 can be found_** [here](https://github.com/AnietieJohnson/FIFA21-DATASET-ANALYSIS-DUCKDB-SQL-/blob/main/CHALLENGE%20(DAY-2%263)-DATABASE%20CREATION.sql)
+**_Queries for DAY-2&3 can be found_** [here](https://github.com/AnietieJohnson/FIFA21-DATASET-ANALYSIS-DUCKDB-SQL-/blob/main/CHALLENGE%20(DAY-2%263)-DATABASE%20CREATION.sql)
 
 ![](https://github.com/AnietieJohnson/FIFA21-DATASET-ANALYSIS-DUCKDB-SQL-/blob/main/Duckdb%20%20database.png)
 
@@ -34,7 +34,7 @@ The 'Value' column presented a unique challenge with values like '€100M' (100 
 - Handling 'Star' Characters: 
 I removed those pesky 'Star' characters from the columns where they appeared, ensuring the data is now pristine in a clean, numerical format. Insights are now poised for discovery.
 
- **_The syntax for DAY-4&5_** -: [Cleaning_process_FIFA_21_RD1](https://github.com/AnietieJohnson/FIFA21-DATASET-ANALYSIS-DUCKDB-SQL-/blob/main/CHALLENGE%20(DAY-4%265)-DATA%20%20CLEANING%20For%20FIFA_21_RD1.sql) and [Cleaning_process_FIFA_21_RD2](https://github.com/AnietieJohnson/FIFA21-DATASET-ANALYSIS-DUCKDB-SQL-/blob/main/CHALLENGE%20(DAY-4%265)-DATA%20CLEANING%20for%20fifa_21_RD2.sql)
+ **_The queries for DAY-4&5_** -: [Cleaning_process_FIFA_21_RD1](https://github.com/AnietieJohnson/FIFA21-DATASET-ANALYSIS-DUCKDB-SQL-/blob/main/CHALLENGE%20(DAY-4%265)-DATA%20%20CLEANING%20For%20FIFA_21_RD1.sql) and [Cleaning_process_FIFA_21_RD2](https://github.com/AnietieJohnson/FIFA21-DATASET-ANALYSIS-DUCKDB-SQL-/blob/main/CHALLENGE%20(DAY-4%265)-DATA%20CLEANING%20for%20fifa_21_RD2.sql)
 
 To confirm that all datatypes have been updated to integer, I used the syntax below
 ```
@@ -57,7 +57,7 @@ Question 3: Discovered the club with the largest representation of players in th
 
 Question 4: Listed the top 10 players with the highest Overall (OVA) and Potential (POT) ratings, spotlighting the star players using the MAX() function. These are the football galaxy's brightest. 
 
- **_The syntax for DAY-6&7 can be found_** [here](https://github.com/AnietieJohnson/FIFA21-DATASET-ANALYSIS-DUCKDB-SQL-/blob/main/CHALLENGE%20(DAY-6%267)-ANALYSIS.sql)
+ **_The queries for DAY-6&7 can be found_** [here](https://github.com/AnietieJohnson/FIFA21-DATASET-ANALYSIS-DUCKDB-SQL-/blob/main/CHALLENGE%20(DAY-6%267)-ANALYSIS.sql)
 
 
 ### CHALLENGE (DAY-8&9): ANALYSIS CONTINUED
@@ -76,7 +76,7 @@ By ranking players by Potential (POT) within their nationality, we can spot the 
 5. Ranking Players by OVA in Descending Order Within Clubs:
 A detailed analysis of player rankings within their respective clubs can assist in talent scouting and club management.
 
- **_The syntax for DAY-8&9 can be found_** [here](https://github.com/AnietieJohnson/FIFA21-DATASET-ANALYSIS-DUCKDB-SQL-/blob/main/CHALLENGE%20(DAY-6%267)-ANALYSIS.sql)
+ **_The queries for DAY-8&9 can be found_** [here](https://github.com/AnietieJohnson/FIFA21-DATASET-ANALYSIS-DUCKDB-SQL-/blob/main/CHALLENGE%20(DAY-6%267)-ANALYSIS.sql)
 
  ## CONCLUSION
 Data analysis has become increasingly important in the field of football for a variety of reasons. It is used at various levels of the game, from individual player performance analysis to team strategy development and fan engagement. The **#30daysduckdbchallenge** has been an incredible journey of data analysis. We've not only polished our SQL skills but also demonstrated the power of DuckDB in handling real-world data challenges. The Challenge continues and I cannot wait to explore the next phase.
